@@ -1,11 +1,11 @@
-## Deep Learning Exam Implementation
+# Deep Learning Exam Implementation
 
 This repository contains the implementation of my Deep Learning exam project for the course Machine Learning, Artificial Neural Networks and Deep Learning (Exam session: June 2025).
 
 I scored full marks on this exam.
 
 
-## 📄 Exam Context
+## Exam Context
 
 The exam consisted of a problem structured into six open questions, covering the full modeling pipeline:
 
@@ -27,29 +27,32 @@ The original exam text is available at:
 [Exam text (PDF)](docs/exam_test.pdf)
 
 
-🧠 My Solution
 
-	•	Model Architecture: Multi-input, multi-output neural network (Functional API, Keras)
+## My Solution  
 
-	•	Inputs:
+- **Model Architecture**  
+  Multi-input, multi-output neural network implemented with the **Keras Functional API**.  
 
-	•	Text reviews (tokenized, padded sequences → Embedding + LSTM branch)
+- **Inputs**  
+  - **Text reviews** → tokenized, padded sequences → Embedding + LSTM branch  
+  - **Categorical metadata** → seasons, reviewer continent, hotel popularity quartiles → Dense layers branch  
 
-	•	Categorical metadata (seasons, reviewer continent, hotel popularity quartiles → Dense layers branch)
+- **Outputs**  
+  - **Binary classification** → Good vs. Bad review (sigmoid activation)  
+  - **Regression** → Review score (linear activation)  
 
-	•	Outputs:
+- **Loss Functions**  
+  - Binary cross-entropy (classification)  
+  - Mean Squared Error (regression)  
+  - Combined via weighted sum  
 
-	•	Binary classification (Good vs. Bad review, sigmoid activation)
+- **Optimization**  
+  Adam optimizer with tuned hyperparameters: learning rate, dropout, batch size, LSTM units  
 
-	•	Regression (Review score, linear activation)
-
-	•	Loss Functions: Binary cross-entropy + Mean Squared Error (weighted sum)
-
-	•	Optimization: Adam optimizer with tuned hyperparameters (learning rate, dropout, batch size, LSTM units)
-	
-	•	Evaluation: Baseline training, random search for hyperparameter tuning, and 5-fold cross-validation
-
-
+- **Evaluation**  
+  - Baseline training  
+  - Random search for hyperparameter tuning  
+  - 5-fold cross-validation to assess generalization  
 
 
 The original dataset (`input_data.pkl`) is no longer publicly available. (This is why there is not a requirements.txt anymore here)
