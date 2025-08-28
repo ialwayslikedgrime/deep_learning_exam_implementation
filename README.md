@@ -62,3 +62,5 @@ The original exam text is available at:
 The original dataset (`input_data.pkl`) is no longer publicly available. (This is why there is not a requirements.txt anymore here)
 
 done by me, ialwayslikedgrime alias grimey_s
+
+let's connect on X ! https://x.com/grimey_s 
