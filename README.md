@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.18-orange?logo=tensorflow)
+![Keras](https://img.shields.io/badge/Keras-API-red?logo=keras)
+![NumPy](https://img.shields.io/badge/NumPy-1.26-013243?logo=numpy)
+![Pandas](https://img.shields.io/badge/Pandas-2.0-150458?logo=pandas)
+![Scikit--learn](https://img.shields.io/badge/scikit--learn-1.5-F7931E?logo=scikit-learn)
 # Deep Learning Exam Implementation
 
 This repository contains the implementation of my Deep Learning exam project for the course Machine Learning, Artificial Neural Networks and Deep Learning (Exam session: June 2025).
