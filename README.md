@@ -4,24 +4,22 @@ This repository contains the implementation of my Deep Learning exam project for
 
 I scored full marks on this exam.
 
+## Exam Context  
 
-## Exam Context
+The exam problem was structured into **six open questions**, covering the entire deep learning pipeline:  
 
-The exam consisted of a problem structured into six open questions, covering the full modeling pipeline:
+1. **Model** — choice of the most appropriate architecture and rationale  
+2. **Input** — preprocessing strategy, input types, shapes, and value domains  
+3. **Output** — design of output layers and justification  
+4. **Loss** — choice of loss functions and label formatting  
+5. **Model Configuration** — layer composition, hyperparameters, and optimization strategy  
+6. **Evaluation** — assessing generalization on unseen data  
 
-	1.	Model — choice of the most appropriate architecture and rationale
 
-	2.	Input — preprocessing strategy, input types, shapes, and value domains
+**Format**:  
+- Students first answered these questions in writing, **without access to the dataset**.  
+- Afterwards, each student had to deliver a Colab notebook implementation that **faithfully adhered** to their written design choices, with no changes allowed.  
 
-	3.	Output — design of output layers and justification
-
-	4.	Loss — choice of loss functions and label formatting
-
-	5.	Model Configuration — layer composition, hyperparameters, optimization strategy
-
-	6.	Evaluation — assessing generalization on unseen data
-
-Students first answered these questions in writing, with no access to the dataset, then had to deliver a Colab notebook implementation that faithfully adhered to the stated design choices, with no changes allowed afterwards.
 
 The original exam text is available at:
 [Exam text (PDF)](docs/exam_test.pdf)
