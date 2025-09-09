@@ -97,6 +97,4 @@ I chose to predict both the review type (positive/negative) and the review score
 └── README.md
 ```
 
-The original dataset (`input_data.pkl`) is no longer publicly available. (This is why there is no requirements.txt here)
-
 Done by me, Stella Andorno (ialwayslikedgrime)
