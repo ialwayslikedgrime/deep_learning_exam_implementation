@@ -1,4 +1,3 @@
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-Multi--Modal-purple)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.18-orange?logo=tensorflow)
 ![Scikit--learn](https://img.shields.io/badge/scikit--learn-1.5-F7931E?logo=scikit-learn)
@@ -15,12 +14,20 @@
 - **Evaluation**: Scikit-learn for cross-validation and metrics
 - **Optimization**: Custom hyperparameter search implementation
 
+## Key Achievements
+-	Designed & implemented a multi-input, multi-output deep neural network from scratch
+- Integrated NLP (LSTM text branch) with structured data (categorical branch)
+- Built full preprocessing pipeline for heterogeneous data
+- Conducted hyperparameter optimization and cross-validation
+
+
 # Deep Learning Exam Implementation
 
 This repository contains the implementation of my Deep Learning exam project for the course "Machine Learning, Artificial Neural Networks and Deep Learning".
 
 ## Exam Format 
 (Here is the [full text of the exam](docs/exam_test.pdf))
+(Here is my [full implementation with choices explained](deep_learning_exam_implementation.ipynb))
 
 The exam consisted in **designing a complete neural network architecture from scratch without access to the dataset** with pen and paper. Later, we had to deliver a Colab notebook implementation that **faithfully adhered** to our written design choices, with no changes allowed.  
 
@@ -81,14 +88,15 @@ I chose to predict both the review type (positive/negative) and the review score
 
 ## Repository Structure
 
+```
 ├── notebooks/
 │   └── deep_learning_exam_implementation.ipynb    # Complete implementation
 ├── docs/
 │   └── exam_test.pdf                             # Original exam assignment text
 ├── image.png                                      # Network visualization
 └── README.md
-
+```
 
 The original dataset (`input_data.pkl`) is no longer publicly available. (This is why there is no requirements.txt here)
 
-Done by me, ialwayslikegrime / grimey_s
+Done by me, Stella Andorno (ialwayslikedgrime)
